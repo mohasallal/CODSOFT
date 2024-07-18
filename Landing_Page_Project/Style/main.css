@@ -1,0 +1,154 @@
+:root {
+  --White-color: #ffffff;
+  --Black-color: #000000;
+  --Gray-color: #7a7a7a;
+  --transparent-gray: #7a7a7a4d;
+}
+
+.section {
+  margin: 100px 0;
+}
+
+/*Cards*/
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin: 50px 0;
+}
+
+.card {
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 20px;
+  border: 1px solid var(--transparent-gray);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/2;
+}
+
+.card h3 {
+  font-size: 21px;
+  text-align: center;
+}
+
+.laptop__product {
+  width: 90%;
+}
+
+.card__btns {
+  padding: 20px 0;
+}
+
+/*end of Cards*/
+
+/*Sections2*/
+
+.section2 {
+  background-color: var(--Black-color);
+  color: var(--White-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85dvh;
+  text-align: center;
+}
+
+.section2 img {
+  margin: 25px 0;
+}
+
+.Larg__logo {
+  width: 50%;
+  max-width: 450px;
+}
+
+.section2 p {
+  margin: 20px 0;
+}
+
+/*End of section2*/
+
+/*section3*/
+.heading__section3 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.heading__section3 h3 {
+  font-size: 28px;
+}
+
+.heading__section3 h2 {
+  font-size: 65px;
+  margin: 10px 0;
+  width: 550px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #52c5ff, #9f82ff, #f95960, #ff9e0c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading__section3 p {
+  width: 700px;
+  font-size: 24px;
+  color: var(--Gray-color);
+}
+
+.section3__images {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.section3__images img {
+  width: auto;
+}
+/*end of section3*/
+
+@media screen and (max-width: 1250px) {
+  .slider__cards {
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .cards {
+    display: inline-flex;
+    white-space: nowrap;
+    padding: 0 20px;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  /* .card {
+    scroll-snap-align: start;
+  } */
+}
+
+@media screen and (max-width: 768px) {
+  .heading__section3 h2 {
+    font-size: 45px;
+    width: auto;
+  }
+
+  .heading__section3 p {
+    width: auto;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,126 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+
+:root {
+  --White-color: #ffffff;
+  --Black-color: #000000;
+  --Gray-color: #7a7a7a;
+}
+
+body {
+  font-family: "SF Pro Display", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/*Buttons*/
+
+.buttonOne {
+  background-color: transparent;
+  color: var(--White-color);
+  border: 2px solid var(--White-color);
+  height: 50px;
+  width: 140px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.largeButton {
+  width: 180px;
+  height: 60px;
+  border-radius: 35px;
+}
+
+.buttonOne:hover {
+  background-color: var(--White-color);
+  color: var(--Black-color);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.buttonTwo {
+  background-color: transparent;
+  color: var(--Black-color);
+  border: 2px solid var(--Black-color);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.buttonTwo:hover {
+  background-color: var(--Black-color);
+  color: var(--White-color);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.buttonThree {
+  background-color: var(--Black-color);
+  color: var(--White-color);
+  border: 2px solid var(--Black-color);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.buttonThree:hover {
+  background-color: var(--White-color);
+  color: var(--Black-color);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+/*End of Buttons*/
+
+/*Spcls*/
+.bold {
+  font-weight: bold;
+}
+/*end of Spcls*/
+
+/*Headings*/
+
+.Headeing__sectionOne {
+  text-align: center;
+}
+
+.Headeing__sectionOne h2 {
+  font-size: 40px;
+}
+
+.types__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.types__section span {
+  font-size: 24px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.types__section span:first-child {
+  border-bottom: 3px solid var(--Black-color);
+}
+
+.types__section span:last-child {
+  color: var(--Gray-color);
+}
+/*end of Headings*/
