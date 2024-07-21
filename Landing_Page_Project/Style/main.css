@@ -272,7 +272,7 @@
 /*Section7*/
 
 .section7 {
-  padding: 50px 0;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -344,6 +344,10 @@
 
 .section8__images img {
   width: 90%;
+}
+
+.section8 {
+  margin-bottom: 0;
 }
 
 /*end of section8*/

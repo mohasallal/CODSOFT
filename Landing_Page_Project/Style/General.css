@@ -4,6 +4,8 @@
   --White-color: #ffffff;
   --Black-color: #000000;
   --Gray-color: #7a7a7a;
+  --transparent-gray: #7a7a7a4d;
+  --gray-color-background: #f5f5f7;
 }
 
 body {
@@ -90,6 +92,10 @@ body {
 /*Spcls*/
 .bold {
   font-weight: bold;
+}
+
+.black {
+  color: var(--Black-color);
 }
 /*end of Spcls*/
 
