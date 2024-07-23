@@ -1,0 +1,57 @@
+.Container {
+  display: grid;
+  width: 100%;
+  max-width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  grid-template-columns: repeat(4, 1fr);
+  transform: translateX(-50%) translateY(-50%);
+  background-color: rgb(41, 41, 41);
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.DisplayOutput {
+  grid-column: 4 span;
+  height: 80px;
+  cursor: auto;
+  background-color: rgb(63, 63, 63);
+  color: white;
+  font-size: 45px;
+  padding-left: 20px;
+  overflow-x: hidden;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.DisplayOutput:focus {
+  outline: none;
+}
+
+.Container button {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: none;
+  margin: 5px;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 45%);
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.Container button:hover {
+  background-color: hsl(0, 0%, 60%);
+  transition-duration: 0.2s;
+}
+
+.orange {
+  background-color: hsl(32, 100%, 50%) !important;
+}
+
+.orange:hover {
+  background-color: hsl(32, 100%, 60%) !important;
+  transition-duration: 0.2s;
+}

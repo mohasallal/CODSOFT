@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="Container">
+      <input class="DisplayOutput" type="text" readonly />
+      <button onclick="Append('/')" class="operation orange">/</button>
+      <button onclick="Append('7')" class="number">7</button>
+      <button onclick="Append('8')" class="number">8</button>
+      <button onclick="Append('9')" class="number">9</button>
+      <button onclick="Append('*')" class="operation orange">*</button>
+
+      <button onclick="Append('4')" class="number">4</button>
+      <button onclick="Append('5')" class="number">5</button>
+      <button onclick="Append('6')" class="number">6</button>
+      <button onclick="Append('-')" class="operation orange">-</button>
+
+      <button onclick="Append('1')" class="number">1</button>
+      <button onclick="Append('2')" class="number">2</button>
+      <button onclick="Append('3')" class="number">3</button>
+      <button onclick="Append('+')" class="operation orange">+</button>
+      <button onclick="Append('.')" class="decimal">.</button>
+      <button onclick="Append('0')" class="number zero">0</button>
+      <button onclick="calc()" class="equal">=</button>
+      <button onclick="Clear()" class="clear orange">C</button>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
