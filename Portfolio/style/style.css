@@ -35,17 +35,24 @@ strong {
 }
 
 .btn {
-  background: linear-gradient(90deg, #52c5ff, #6a52ff);
+  background-color: var(--white-color);
   padding: calc(0.5em + 3.5px) calc(1em + 3.5px);
-  background-color: var(--iconsbg-clr);
   border-radius: 30px;
+  font-size: var(--size-base);
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--whiteMode-clr);
+  color: var(--teal-clr);
 }
 
 .btn:hover {
   scale: 1.075;
   transition-duration: 0.3s;
+}
+
+@media (min-width: 1024px) {
+  .btn {
+    font-size: var(--size-lg);
+  }
 }

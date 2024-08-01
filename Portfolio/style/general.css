@@ -8,8 +8,8 @@
 
   --lightBlue-clr: #52c5ff;
   --lavandar-clr: #6a52ff;
-  --teal-clr: #227e96;
-  --lightBlue-clr: #a8a9ff;
+  --teal-clr: #288ca5;
+  --lightBlue-clr: #e1e2fd;
   --softblue-clr: #9ccaff;
 
   --size-xxs: 0.5rem;
@@ -35,10 +35,12 @@
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  box-sizing: border-box;
 }
 
 .section {
   margin-top: 5rem;
+  box-sizing: border-box;
 }
 
 /*media*/

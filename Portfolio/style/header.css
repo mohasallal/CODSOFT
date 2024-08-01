@@ -6,6 +6,7 @@
   padding-bottom: 2rem;
   font-size: var(--size-xs);
   font-weight: 600;
+  box-sizing: border-box;
 }
 
 .header__left {
@@ -113,18 +114,21 @@
 
   .sun__icon,
   .prof {
-    width: var(--size-xlg);
-    aspect-ratio: 1/1;
     cursor: pointer;
   }
 
-  .prof {
-    aspect-ratio: 1/1;
-    width: var(--size-5xl);
+  .prof img {
+    width: 18px;
+  }
+
+  .sun__icon {
+    width: var(--size-lg);
   }
 
   .header__links {
     text-decoration: none;
+    display: flex;
+    align-items: center;
     color: var(--white-color);
     padding: 0.5em 1em;
     border-radius: 20px;
@@ -167,11 +171,12 @@
   }
 
   .sun__icon {
-    width: var(--size-base);
+    width: var(--size-2xl);
   }
 
   .header__links {
     color: var(--white-color);
+    font-size: var(--size-lg);
     padding: 0.5em 1em;
   }
 }
