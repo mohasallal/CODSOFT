@@ -1,6 +1,6 @@
 .Container {
   display: grid;
-  width: 100%;
+  width: 85%;
   max-width: 400px;
   position: absolute;
   left: 50%;
