@@ -15,6 +15,13 @@
 
 .About__me span {
   color: var(--softblue-clr);
+  font-weight: 600;
+}
+
+.About__me a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--softblue-clr);
 }
 
 .About__ex {
@@ -38,7 +45,7 @@
   aspect-ratio: 1/1;
   font-size: var(--size-lg);
   border: 2px solid var(--white-color);
-  padding: 5px;
+  width: 50px;
   height: auto;
   border-radius: 50px;
   display: flex;
@@ -76,6 +83,7 @@
   .About__num {
     font-size: var(--size-lg);
     border: 2px solid var(--white-color);
+    width: auto;
     padding: 10px;
   }
 

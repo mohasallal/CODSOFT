@@ -62,7 +62,11 @@
   right: -2px;
   bottom: -2px;
   z-index: -1;
-  background: linear-gradient(200deg, #52c5ff, #6a52ff);
+  background: linear-gradient(
+    200deg,
+    var(--softblue-clr),
+    var(--lightBlue-clr)
+  );
   background-clip: border-box;
   border-radius: 30px;
   transition: background 0.3s;
@@ -98,7 +102,7 @@
     border-radius: 30px;
   }
 
-  .header__menu::before {
+  .header__menu::after {
     content: "";
     position: absolute;
     top: -2px;
@@ -106,7 +110,11 @@
     right: -2px;
     bottom: -2px;
     z-index: -1;
-    background: linear-gradient(200deg, #52c5ff, #6a52ff);
+    background: linear-gradient(
+      200deg,
+      var(--softblue-clr),
+      var(--lightBlue-clr)
+    );
     background-clip: border-box;
     border-radius: inherit;
     transition: background 0.3s;
