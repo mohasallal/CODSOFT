@@ -14,14 +14,14 @@
           mSallal
         </div>
         <ul class="header__menu">
-          <li>
+          <li id="theme-toggle">
             <img class="header__links sun__icon" src="/whiteSun.svg" alt="" />
           </li>
           <li><a class="header__links" href="#About">About</a></li>
           <li><a class="header__links" href="#Projects">Projects</a></li>
           <li><a class="header__links" href="#ContactMe">Contact me</a></li>
         </ul>
-        <button class="header__sideMenu">
+        <button id="SideMenu" class="header__sideMenu">
           <img src="/menu.svg" alt="" />
         </button>
 
@@ -34,6 +34,20 @@
           </button>
         </div>
       </nav>
+      <!-- Mobile Nav -->
+      <div id="mobile__nav" class="Mobile__nav">
+        <nav>
+          <ul class="Mobile__menu">
+            <li id="theme-toggle">
+              <img class="Mobile__links sun__icon" src="/whiteSun.svg" alt="" />
+            </li>
+            <li><a class="Mobile__links" href="#About">About</a></li>
+            <li><a class="Mobile__links" href="#Projects">Projects</a></li>
+            <li><a class="Mobile__links" href="#ContactMe">Contact me</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- end of Mobile Nav -->
     </header>
     <main>
       <section class="Welcome">
@@ -153,6 +167,15 @@
               <h3>Volunteering Experiences</h3>
               <br />
               <p>
+                Attended the first international conference
+                <strong
+                  >Universities and Artificial Intelligence Technology</strong
+                >
+                in Jordan
+              </p>
+              <p>24/June/2024 - 25/June/2024</p>
+              <br />
+              <p>
                 organizational member in <strong>ZUJCTF2024</strong> at
                 Al-Zaytoonah University
               </p>
@@ -162,15 +185,6 @@
                 organizational member in Cyber Security
                 <strong>Awareness </strong>
                 Day at Al-Zaytoonah University
-              </p>
-              <p>29/May/2024</p>
-              <br />
-              <p>
-                Attended the first international conference
-                <strong
-                  >Universities and Artificial Intelligence Technology</strong
-                >
-                in Jordan
               </p>
               <p>29/May/2024</p>
             </div>
@@ -302,11 +316,66 @@
           </div>
         </div>
       </section>
-      <section id="ContactMe" class="Container section">
-        
+      <section id="ContactMe" class="Container section ContactMe">
+        <div class="ContactMe__wrapper">
+          <div class="ContactMe__Question">
+            <h3>
+              Have any idea about a project?<img src="/star3.svg" alt="" />
+            </h3>
+            <br />
+            <p>
+              If you're starting a project, have business questions, or just
+              want to connect, my inbox is always open. Please don't hesitate to
+              reach out, I'll get back to you as soon as possible.
+            </p>
+            <br />
+            <button class="btn small">
+              <a href="mailto:malslal787@gmail.com">Reach Out</a>
+            </button>
+          </div>
+          <div class="ContactMe__Art">
+            <img class="Contact__firststar" src="/star.svg" alt="" />
+            <img class="Contact__secondstar" src="/star.svg" alt="" />
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+            <div class="line line4"></div>
+            <div class="line line5"></div>
+          </div>
+        </div>
+
+        <ul class="ContactMe__Social">
+          <li>
+            <a class="header__links" href="https://www.instagram.com/sallal04/"
+              ><img src="/instagram.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a class="header__links" href="mailto:malslal787@gmail.com"
+              ><img src="/email.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a class="header__links" href="https://github.com/mohasallal"
+              ><img src="/github.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a
+              class="header__links"
+              href="https://www.linkedin.com/in/mohammad-al-sallal-1731142b5/"
+              ><img src="/linkedin-logo-hand-drawn-outline.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+        <div class="BackToTop">
+          <button id="BackToTop" class="btn">
+            <img src="./public/uparrow.svg" alt="" />
+          </button>
+        </div>
       </section>
     </main>
-    <footer>~Mohammad Alsallal~</footer>
+    <footer class="Container">~Mohammad Alsallal~</footer>
     <script type="module" src="./JS/main.js"></script>
   </body>
 </html>

@@ -36,7 +36,6 @@ strong {
 
 .btn {
   background-color: var(--white-color);
-  padding: calc(0.5em + 3.5px) calc(1em + 3.5px);
   border-radius: 30px;
   font-size: var(--size-base);
   font-weight: bold;
@@ -54,6 +53,7 @@ strong {
 .btn a {
   text-decoration: none;
   color: var(--teal-clr);
+  padding: calc(0.5em + 3.5px) calc(1em + 3.5px);
 }
 
 .small {

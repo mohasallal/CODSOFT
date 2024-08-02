@@ -31,13 +31,17 @@
   display: none;
 }
 
+.prof {
+  padding: calc(0.5em + 3.5px) calc(1em + 3.5px);
+}
+
 .header__menu {
   display: none;
 }
 
 .header__sideMenu {
+  z-index: 9999;
   position: relative;
-  padding: 3px;
   background-color: var(--iconsbg-clr);
   border-radius: 30px;
 }
@@ -54,7 +58,7 @@
   border-radius: 30px;
 }
 
-.header__sideMenu::before {
+.header__sideMenu::after {
   content: "";
   position: absolute;
   top: -2px;
