@@ -56,7 +56,8 @@
 }
 .Tech {
   width: 100%;
-  padding: 20px 0;
+  padding: 20px 10px;
+  box-sizing: border-box;
   border-top: 2px solid rgba(255, 255, 255, 0.2);
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   overflow: auto;
@@ -117,11 +118,11 @@
   }
 
   .Tech ul li {
-    font-size: var(--size-base);
+    font-size: var(--size-sm);
   }
 
   .Tech ul li img {
-    width: 24px;
+    width: 22px;
   }
 }
 
@@ -137,6 +138,14 @@
 
   .Welcome__title p {
     font-size: var(--size-base);
+  }
+
+  .Tech ul li {
+    font-size: var(--size-base);
+  }
+
+  .Tech ul li img {
+    width: 24px;
   }
 }
 

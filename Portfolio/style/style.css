@@ -51,8 +51,28 @@ strong {
   transition-duration: 0.3s;
 }
 
+.btn a {
+  text-decoration: none;
+  color: var(--teal-clr);
+}
+
+.small {
+  font-size: var(--size-xs);
+}
+
+@media (min-width: 475px) {
+  .small {
+    font-size: var(--size-sm);
+  }
+}
+@media (min-width: 640px) {
+  .small {
+    font-size: var(--size-base);
+  }
+}
+
 @media (min-width: 1024px) {
   .btn {
-    font-size: var(--size-lg);
+    font-size: var(--size-base);
   }
 }

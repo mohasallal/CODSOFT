@@ -176,7 +176,7 @@
 
   .header__links {
     color: var(--white-color);
-    font-size: var(--size-lg);
+    font-size: var(--size-base);
     padding: 0.5em 1em;
   }
 }
