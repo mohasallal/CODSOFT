@@ -1,3 +1,15 @@
+.ContactMe {
+  position: relative;
+}
+
+.ContactMe__PaintBrush {
+  width: 5%;
+  display: none;
+  position: absolute;
+  top: -100px;
+  left: 50px;
+}
+
 .ContactMe__wrapper {
   width: 100%;
   margin-bottom: 50px;
@@ -149,14 +161,15 @@
 }
 
 .BackToTop button {
-  padding: 10px;
+  padding: 5px;
   border-radius: 50%;
 }
 
 .BackToTop button img {
-  width: 30px;
+  width: 40px;
   height: auto;
   aspect-ratio: 1/1;
+  rotate: 180deg;
 }
 
 @media (min-width: 768px) {
@@ -167,6 +180,10 @@
 }
 
 @media (min-width: 1024px) {
+  .ContactMe__PaintBrush {
+    display: block;
+  }
+
   .ContactMe__Art {
     display: block;
   }

@@ -13,7 +13,14 @@ body {
   font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
   background-color: var(--black-clr);
   color: var(--white-color);
+  overflow-x: hidden;
+  cursor: url(/undraw_pointer.svg), auto;
 }
+/* 
+a:hover,
+button:hover {
+  cursor: url(/click.svg);
+} */
 
 img,
 svg {
@@ -58,6 +65,21 @@ strong {
 
 .small {
   font-size: var(--size-xs);
+}
+
+/*scrollbar*/
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--softblue-clr);
+  outline: 1px solid var(--softblue-clr);
 }
 
 @media (min-width: 475px) {
