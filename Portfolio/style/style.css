@@ -14,13 +14,7 @@ body {
   background-color: var(--black-clr);
   color: var(--white-color);
   overflow-x: hidden;
-  cursor: url(/undraw_pointer.svg), auto;
 }
-/* 
-a:hover,
-button:hover {
-  cursor: url(/click.svg);
-} */
 
 img,
 svg {
@@ -67,6 +61,25 @@ strong {
   font-size: var(--size-xs);
 }
 
+.star {
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+    scale: 1.2;
+  }
+  50% {
+    opacity: 0.5;
+    scale: 1;
+  }
+  100% {
+    opacity: 1;
+    scale: 1.2;
+  }
+}
+
 /*scrollbar*/
 
 body::-webkit-scrollbar {
@@ -81,6 +94,8 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--softblue-clr);
   outline: 1px solid var(--softblue-clr);
 }
+
+/*mouse*/
 
 @media (min-width: 475px) {
   .small {

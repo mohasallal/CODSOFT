@@ -1,10 +1,11 @@
 .loading {
   overflow: hidden;
-  filter: grayscale(100%);
+  filter: blur(40px) grayscale(100%);
+  overflow: hidden;
 }
 
 .loaded {
-  filter: grayscale(0%);
+  filter: blur(0px) grayscale(0%);
   transition: 0.7s ease-in-out;
 }
 

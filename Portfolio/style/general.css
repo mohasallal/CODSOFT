@@ -29,20 +29,6 @@
   --size-10xl: 10rem;
 }
 
-.lightMode {
-  --black-clr: #f5f5f5;
-  --white-color: #101111;
-  --lighterBlack-clr: #e8e8e8;
-  --iconsHVR-clr: #d0d0d0;
-  --iconsbg-clr: #f0f0f0;
-  --whiteMode-clr: #e0e0e0;
-
-  --lightBlue-clr: #4aa3cc;
-  --lavandar-clr: #8c72ff;
-  --teal-clr: #5abbd6;
-  --softblue-clr: #7ab9ff;
-}
-
 .Container {
   width: 100%;
   margin-left: auto;

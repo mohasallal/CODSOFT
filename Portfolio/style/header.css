@@ -9,6 +9,12 @@
   box-sizing: border-box;
 }
 
+.header__left,
+.header__right {
+  max-width: 181.8px;
+  width: 100%;
+}
+
 .header__left {
   gap: 0.75em;
   font-weight: 800;
